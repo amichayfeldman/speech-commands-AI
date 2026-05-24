@@ -1,4 +1,6 @@
-# Multi-Label Edge Speech Commands
+# speech-commands-AI
+
+Multi-label edge speech command training for robot control.
 
 This repository is an anonymized, portfolio-grade version of a confidential-company robot-control project. It trains a compact multi-label speech model for edge deployment, evaluates thresholded command activations, and exports an ONNX artifact with class and threshold metadata.
 
@@ -70,4 +72,3 @@ ONNX export writes:
 
 - `model.onnx`
 - `model.metadata.json` containing the class map, thresholds, input shape, and ONNXRuntime parity result when ONNXRuntime is installed.
-
