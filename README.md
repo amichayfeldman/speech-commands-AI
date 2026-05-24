@@ -8,7 +8,7 @@ The model treats only supported robot commands as classes. Out-of-vocabulary spe
 
 ## Why Multi-Label
 
-Robot-control audio can contain overlapping or composed commands. A multi-label model lets each supported command activate independently instead of forcing every clip into exactly one class. This also makes the background/OOV policy explicit: no supported command means no active output.
+Robot-control audio can contain overlapping or composed commands. A multi-label model lets each supported command activate independently instead of forcing every clip into exactly one class.This allow both model supports dynamic input with multiple commands and also makes the background/OOV policy explicit: no supported command means no active output.
 
 ## Commands
 
