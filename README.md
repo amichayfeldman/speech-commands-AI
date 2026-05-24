@@ -2,7 +2,7 @@
 
 Multi-label edge speech command training for robot control.
 
-This repository is an anonymized, portfolio-grade version of a confidential-company robot-control project. It trains a compact multi-label speech model for edge deployment, evaluates thresholded command activations, and exports an ONNX artifact with class and threshold metadata.
+This repository trains a compact multi-label speech model for edge deployment, evaluates thresholded command activations, and exports an ONNX artifact with class and threshold metadata.
 
 The model treats only supported robot commands as classes. Out-of-vocabulary speech, silence, background audio, and irrelevant utterances are not modeled as a special class. They map to an empty label list, which becomes an all-zero multi-hot target vector.
 
