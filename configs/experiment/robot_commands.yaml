@@ -1,0 +1,9 @@
+name: robot_commands
+description: Anonymized confidential-company robot-control speech commands.
+classes:
+  - move_forward
+  - move_backward
+  - turn_left
+  - turn_right
+  - stop
+

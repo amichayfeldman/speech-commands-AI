@@ -1,0 +1,3 @@
+output_dir: artifacts/checkpoints
+evaluation_dir: artifacts/evaluation
+

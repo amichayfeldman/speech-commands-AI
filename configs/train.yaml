@@ -1,0 +1,12 @@
+defaults:
+  - data_source: duckdb
+  - dataset: multilabel_speech
+  - model: mobilenet_v3
+  - loss: bce_with_logits
+  - trainer: default
+  - logger: local
+  - paths: default
+  - thresholds: default
+  - experiment: robot_commands
+  - _self_
+

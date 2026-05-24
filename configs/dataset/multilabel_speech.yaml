@@ -1,0 +1,7 @@
+sample_rate: 16000
+duration_seconds: 1.0
+n_fft: 400
+hop_length: 160
+image_size: 224
+unknown_label_policy: ignore
+label_policy: oov_background_as_empty_target

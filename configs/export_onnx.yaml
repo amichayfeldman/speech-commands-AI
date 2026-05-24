@@ -1,0 +1,19 @@
+defaults:
+  - data_source: duckdb
+  - dataset: multilabel_speech
+  - model: mobilenet_v3
+  - loss: bce_with_logits
+  - trainer: default
+  - logger: local
+  - paths: default
+  - thresholds: default
+  - experiment: robot_commands
+  - _self_
+
+checkpoint_path: null
+export:
+  output_path: artifacts/model.onnx
+  input_shape: [1, 1, 224, 224]
+  opset_version: 17
+  parity_atol: 1.0e-4
+

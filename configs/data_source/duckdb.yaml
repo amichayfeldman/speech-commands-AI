@@ -1,0 +1,12 @@
+database_path: data/speech_commands.duckdb
+train_table: train
+val_table: val
+test_table: test
+audio_column: audio_path
+labels_column: labels
+text_column: text
+background_flag_column: is_background
+metadata_columns:
+  - speaker_id
+  - session_id
+
